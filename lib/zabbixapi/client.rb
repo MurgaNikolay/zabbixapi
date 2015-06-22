@@ -41,9 +41,9 @@ class ZabbixApi
 
     def message_json(body)
       message = {
-        :method  => body[:method],
-        :params  => body[:params],
-        :id      => id,
+        :method => body[:method],
+        :params => body[:params],
+        :id => id,
         :jsonrpc => '2.0'
       }
 

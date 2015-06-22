@@ -22,6 +22,7 @@ class ZabbixApi
   end
 
   class HttpError < BaseError
+
   end
 
 end
